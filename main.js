@@ -11,7 +11,7 @@ function telephoneCheck(str) {
   console.log(typeof strArray)
   let prueba2 = strArray.map((item) => parseInt(item));
   console.log(typeof prueba2)
-
+}
 // telephoneCheck("555-555-5555");
 
 // telephoneCheck("555-5555");
