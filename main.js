@@ -1,11 +1,21 @@
 function telephoneCheck(str) {
-
+  console.log(str);
+  let strArray = parseInt(str);
+  console.log(strArray);
 }
-// telephoneCheck("555-555-5555");
 
+telephoneCheck("555-555-5555");
+// telephoneCheck("1 555-555-5555");
+// telephoneCheck("1 (555) 555-5555");
+// telephoneCheck("5555555555");
+// telephoneCheck("555-555-5555");
+// telephoneCheck("(555)555-5555");
+// telephoneCheck("1(555)555-5555");
 // telephoneCheck("555-5555");
 // telephoneCheck("5555555");
-telephoneCheck("1 555)555-5555");
+// telephoneCheck("1 555)555-5555");
+// telephoneCheck("1 555 555 5555");
+// telephoneCheck("1 456 789 4444");
 // telephoneCheck("123**&!!asdf#");
 // telephoneCheck("55555555");
 // telephoneCheck("(6054756961)");
