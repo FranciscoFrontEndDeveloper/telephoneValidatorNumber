@@ -16,7 +16,7 @@ telephoneCheck("(555)555-5555");
 telephoneCheck("1(555)555-5555");
 telephoneCheck("1 555 555 5555");
 telephoneCheck("1 456 789 4444");
-console.log("---------------------------------------");
+
 
 telephoneCheck("555-5555");
 telephoneCheck("5555555");
